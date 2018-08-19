@@ -8,11 +8,12 @@ This sample app demonstrates how to do Asynchronous operations using [Future](ht
 There are two Async patterns in Flutter to do Asynchronous processing.
 Checkout [Flutter Async Widgets](https://flutter.io/widgets/async/)
 
-In this sample app, I have done Asynchronous operations using[**Future**](https://api.dartlang.org/stable/2.0.0/dart-async/Future-class.html)
+In this sample app, I have done Asynchronous operations using [**Future**](https://api.dartlang.org/stable/2.0.0/dart-async/Future-class.html)
 
 Following main classes in this Sample application.
 
-##**GitHubService** 
+##**GitHubService**
+
 This class is interacting with GitHub. Fetches the list of the projects from the GitHub of a given User name.
 Convert http.response into a list of the **Project** model.
 
@@ -22,6 +23,7 @@ The compute function will run expensive functions in a background isolate and re
 In the sample app, executed the parseProjects function in the background.
 
 ##**ProjectListWidget**
+
 This widget displays Projects in the vertical list using ListView.
 
 ## Getting Started with Flutter
