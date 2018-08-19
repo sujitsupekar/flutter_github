@@ -12,7 +12,7 @@ In this sample app, I have done Asynchronous operations using [**Future**](https
 
 Following main classes in this Sample application.
 
-##**GitHubService**
+**GitHubService**
 
 This class is interacting with GitHub. Fetches the list of the projects from the GitHub of a given User name.
 Convert http.response into a list of the **Project** model.
@@ -22,7 +22,7 @@ The compute function will run expensive functions in a background isolate and re
 
 In the sample app, executed the parseProjects function in the background.
 
-##**ProjectListWidget**
+**ProjectListWidget**
 
 This widget displays Projects in the vertical list using ListView.
 
